@@ -1177,3 +1177,30 @@ console.warn: services.settings: main/partitioning-exempt-urls sync interrupted 
 console.warn: services.settings: main/translations-wasm sync interrupted by shutdown
 console.warn: services.settings: main/search-config-overrides sync interrupted by shutdown
 console.error: (new AbortError("IndexedDB: main/search-config-overrides-v2 getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1722849731660	geckodriver	INFO	Listening on 127.0.0.1:49963
+1722849734735	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49964" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Pessoal\\AppData\\Local\\Temp\\rust_mozprofileTFWBHy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1722849735572	Marionette	INFO	Marionette enabled
+1722849735778	Marionette	INFO	Listening on port 49975
+WebDriver BiDi listening on ws://127.0.0.1:49964
+Read port: 49975
+1722849736018	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49964/devtools/browser/b41cddce-2abc-4ede-b013-1e712435f623
+1722849765580	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1722849766386	Marionette	INFO	Stopped listening on port 49975
+Dynamically enable window occlusion 1
+console.warn: services.settings: main/addons-manager-settings sync interrupted by shutdown
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+console.warn: services.settings: main/translations-wasm sync interrupted by shutdown
+console.warn: services.settings: main/search-config-overrides sync interrupted by shutdown
+console.warn: services.settings: main/search-config-overrides-v2 sync interrupted by shutdown
+console.warn: services.settings: main/search-config sync interrupted by shutdown
+console.warn: services.settings: main/fingerprinting-protection-overrides sync interrupted by shutdown
+console.warn: services.settings: main/cookie-banner-rules-list sync interrupted by shutdown
+console.warn: services.settings: main/devtools-compatibility-browsers sync interrupted by shutdown
+console.warn: services.settings: security-state/cert-revocations sync interrupted by shutdown
+console.warn: services.settings: security-state/intermediates sync interrupted by shutdown
+console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
