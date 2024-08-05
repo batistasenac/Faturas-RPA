@@ -44,4 +44,4 @@ Fechar Navegador: Fecha o navegador após a conclusão do processo.
 
 ----------------------------------------------------------------------------------------------------------
 
-Observação: O projeto foi devidamente executado, trazendo as imagens da fatura vencida na pasta imagens de acordo com a data de vencimento, com a finalidade da extração das informações solicitadas.
+Observação: O projeto foi executado trazendo as imagens das faturas vencidas, localizadas na pasta imagens_faturas, com a finalidade de extrair informações solicitadas nas imagens.
