@@ -15,7 +15,7 @@ Extrair Dados: Cria uma função extrair_lista() para extrair informações da t
 ------------------------------------------------------------------------------------------------------------------------------------
 
 4. Navegação entre Páginas
-Loop de Navegação: Navega por todas as páginas clicando no botão "Next" e extrai os dados de cada página.
+5. Paginação: Navega por todas as páginas clicando no botão "Next" e extrai os dados de cada página.
 ------------------------------------------------------------------------------------------------------------------------------------
 
 5. Filtragem de Dados
@@ -36,7 +36,7 @@ Adicionar Dados ao Export Data: Adiciona os dados extraídos à lista export_dat
 
 8. Exportação dos Dados
 Criação do DataFrame: Converte a lista export_data para um DataFrame usando pandas.
-Exportar para CSV: Usa df.to_csv() para exportar o DataFrame para um arquivo CSV com delimitador de ponto e vírgula.
+Exportar para CSV: Usa df.to_csv() para exportar o DataFrame para um arquivo CSV, inputando as informações na planilha.
 ---------------------------------------------------------------------------------------------------------------------
 
 9. Finalização
