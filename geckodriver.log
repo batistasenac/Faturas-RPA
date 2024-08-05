@@ -1204,3 +1204,20 @@ console.warn: services.settings: main/devtools-compatibility-browsers sync inter
 console.warn: services.settings: security-state/cert-revocations sync interrupted by shutdown
 console.warn: services.settings: security-state/intermediates sync interrupted by shutdown
 console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+1722873236103	geckodriver	INFO	Listening on 127.0.0.1:61197
+1722873239160	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61198" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Pessoal\\AppData\\Local\\Temp\\rust_mozprofilev5FOvn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1722873239552	Marionette	INFO	Marionette enabled
+1722873239739	Marionette	INFO	Listening on port 61205
+WebDriver BiDi listening on ws://127.0.0.1:61198
+Read port: 61205
+1722873239950	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61198/devtools/browser/65b74e24-59c3-4d17-978a-9231d09b62e4
+1722873269474	Marionette	INFO	Stopped listening on port 61205
+Dynamically enable window occlusion 1
+1722873270319	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, channelStatus: 2152071198, errorCode: 2, reason: error
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 324))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", "resource://gre/modules/Region.sys.mjs", 738))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))

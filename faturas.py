@@ -156,9 +156,10 @@ else:
 
                     # Adicionar todoos dados extraídos à lista
                     exportar_faturas.append({
-                        'URL da Fatura': dado['URL da Fatura'],
+                        'Numero da Fatura': numero_fatura[0],
                         'Data da Fatura': data_encontrada[0],
-                        'Numero da Fatura': numero_fatura[0]
+                        'URL da Fatura': dado['URL da Fatura']
+                        
                     })
                 else:
                     print(f"Nenhuma data ou número da fatura encontrado na imagem")
